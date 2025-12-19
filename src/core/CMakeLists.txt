@@ -8,6 +8,7 @@
     ${CMAKE_CURRENT_SOURCE_DIR}/actions/codac2_OctaSym.h
     ${CMAKE_CURRENT_SOURCE_DIR}/actions/codac2_OctaSym_operator.h
 
+    ${CMAKE_CURRENT_SOURCE_DIR}/contractors/clara_CtcRelaxed.h
     ${CMAKE_CURRENT_SOURCE_DIR}/contractors/codac2_Ctc.h
     ${CMAKE_CURRENT_SOURCE_DIR}/contractors/codac2_CtcAction.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/contractors/codac2_CtcAction.h
