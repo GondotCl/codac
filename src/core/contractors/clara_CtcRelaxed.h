@@ -24,8 +24,10 @@ namespace codac2
      * @brief Contractor computing the relaxed intersection
      *
      * See https://en.wikipedia.org/wiki/Relaxed_intersection
-     *
-     * @tparam Domains To be contracted types
+     * 
+     * @tparam N Number of domains
+     * @tparam X Type of the domains (either Interval or IntervalVector)
+     * @tparam std::make_index_sequence<N + 1> 
      */
     template <int N, typename X, typename = std::make_index_sequence<N + 1>>
     class CtcRelaxed;
@@ -35,7 +37,7 @@ namespace codac2
     {
     public:
         /**
-         * @brief Construct a new Ctc Relaxed object
+         * @brief Construct a new CtcRelaxed object
          *
          * @param n_dim Number of dimensions of the contracted domains
          */
