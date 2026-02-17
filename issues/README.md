@@ -9,3 +9,7 @@
     - Fonction contract avec d'autres arguments ?? **Problématique pour le CRTP...**
     - **Ajouter des tests avec différentes dimensions**
 1. ```CtcQInter_clara``` : ajout de setters à la class CtcQInter
+1. ```CtcQFuzzy``` : implémentation enesembles flous à partir de ```CtcQInter_clara```
+
+Notes documentation : 
+    - IntervalVector méthode bisect n'existe pas ? -> bisect_largest si

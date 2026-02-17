@@ -19,4 +19,5 @@ namespace codac2
   // The q-intersection of n boxes corresponds to the set of all elements
   // which belong to at least q of these boxes.
   IntervalVector qinter(unsigned int q, const std::list<IntervalVector>& l);
+  IntervalVector fuzzyinter(double alpha, const std::list<IntervalVector>& l, std::vector<double> marks);
 }
